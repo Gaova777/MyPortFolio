@@ -3,8 +3,8 @@ import React from 'react'
 
 function Hero() {
   return (
-    <div className='hero'>
-        <h1 className="hero-title">
+    <div className="hero">
+        <h1  className="hero-title">
             Hi!, My Name is
         </h1>
         <h2 className="hero-title-large">
