@@ -14,65 +14,41 @@ function Experience() {
 
   const expereinces = [
     {
-      name: "Rapidops",
+      name: "Nakiro Technology SAS",
       role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
-      start: "January 2021",
-      end: "Present",
+      url: "http://www.nakirosystem.com/",
+      start: "August 2022",
+      end: "May 2023",
       shortDescription: [
-        "I had experience working on a large codebase utilizing Kibana and Elasticsearch.",
-        "Throughout my work, I've utilized various MERN stack technologies, including React, Redux, TypeScript, Node.js, Hapi, and Elasticsearch, among others.",
-        "I've also managed a small team that includes Frontend Developers, Backend Developers, and UI/UX Developers.",
-        "Additionally, I've represented the company in client meetings, communicating effectively on their behalf.",
+        "I had the oportunity to work in Scrum methodology to implement RestAPI Aplication, to connect Siigo and Alegra Platform in their FlagShip software SARFI",
+        "Throughout my work, I've utilized React and Redux-Toolkit SASS, HTML, Javascript, PHP, Laravel and Liveware to achieve the differents goals in Sarfi Software .",
+        "I've also managed Support to differents clients that had Sarfi Software in their company",
       ],
     },
     {
-      name: "Youtube",
-      role: "Content Creator",
-      url: "https://www.youtube.com/kishansheth21",
-      start: "April 2021",
-      end: "Present",
+      name: "University Tecnológica de Pereira",
+      role: "Auxiliary laboratory Materials Investigation",
+      url: "https://www.utp.edu.co",
+      start: "Febrary 2019",
+      end: "December 2021",
       shortDescription: [
-        "Upon graduating in 2021, I began creating content on YouTube, with the aim of enhancing my skills and working with the latest technologies, specifically React and Node.",
-        "Over time, I have developed and shared over 50 projects using React on my channel.",
-        "As a result, my channel has gained a substantial following, with over 11,000 subscribers to date. I have also had the pleasure of collaborating with various brands throughout my journey.",
+        "I belonged to a investigation group about Plasm an new materials, handle Matlab Software based in C language to implement simulations and sintetize nanoparticles in liquid environment, recolecting data and get machine learning model",
+        "I was able to make an article about sintetized an characteristing nanomaterial thank for the simulations",
+        "I was an auxiliar to handle the specially instrument.",
       ],
     },
     {
-      name: "ACES",
-      role: "President",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
+      name: "Computer Science Assistant",
+      role: "Assistant",
+      url: "Independient",
+      start: "November 2022",
       end: "November 2020",
       shortDescription: [
-        "As the elected President of the ACES Departmental Club, I successfully led a team of board members and executive committee members to organize and execute multiple events throughout the year.",
-        "Additionally, I secured sponsorships from reputable brands to support our events.",
-        "Overall, it was a rewarding experience that allowed me to develop my leadership skills while contributing positively to the growth of the organization.",
+        "I've teached to studdents differents basics topics about programming, in javascript Vanilla, MySQL and PHP, Python, React",
+        "I managed groups of students to create applications FullStack to carry out the differents practice",
       ],
     },
-    {
-      name: "ISTE",
-      role: "Web Developer",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2019",
-      end: "November 2020",
-      shortDescription: [
-        "Write modern, performant, maintainable code for a diverse array of client and internal projects",
-        "Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify",
-        "Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis",
-      ],
-    },
-    {
-      name: "Shashaan",
-      role: "Founder",
-      url: "https://www.linkedin.com/company/association-of-computer-engineering-students/",
-      start: "November 2018",
-      end: "November 2021",
-      shortDescription: [
-        "While still a student, I founded a web hosting company that offered affordable hosting services.",
-        "With over 300 customers, the business thrived until I graduated and sold it to another company.",
-      ],
-    },
+    
   ];
   return (
     <motion.div
@@ -113,7 +89,7 @@ function Experience() {
               <span>{expereinces[selected].role}</span>
               <span className="exp-details-position-company">
                 &nbsp;@&nbsp;
-                <Link href={expereinces[selected].url} className="link">
+                <Link href={expereinces[selected].url} className="link" target="_blank">
                   {expereinces[selected].name}
                 </Link>
               </span>

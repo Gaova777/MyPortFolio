@@ -70,9 +70,9 @@ function About() {
                     </div>
                 </div>
             </div>
-
+        <div>
            <Skills/>
-
+           </div>
 
         </motion.div>
     )
