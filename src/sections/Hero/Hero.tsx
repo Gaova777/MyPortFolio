@@ -1,24 +1,59 @@
 import Button from '@/components/Button'
+import {motion} from 'framer-motion'
 import React from 'react'
 
 function Hero() {
   return (
     <div className="hero">
-        <h1  className="hero-title">
+        <motion.h1  
+        className="hero-title"
+    initial={{opacity:0, y:-25}}
+                animate={{opacity:1, y:0}}
+                transition={{
+                duration:0.3,
+                ease:"easeInOut",
+                delay: 0.6,
+                }}
+        >
             Hi!, My Name is
-        </h1>
-        <h2 className="hero-title-large">
+        </motion.h1>
+        <motion.h2 
+        className="hero-title-large"
+        initial={{opacity:0, y:-25}}
+                animate={{opacity:1, y:0}}
+                transition={{
+                duration:0.3,
+                ease:"easeInOut",
+                delay: 0.75,
+                }}
+        >
             Juan Diego 
-        </h2>
-        <h3 className="hero-title-large hero-title-sub">
+        </motion.h2>
+        <motion.h3 
+        className="hero-title-large hero-title-sub"
+        initial={{opacity:0, y:-25}}
+                animate={{opacity:1, y:0}}
+                transition={{
+                duration:0.3,
+                ease:"easeInOut",
+                delay: 1.05,
+                }}
+        >
             I craft things for web
-        </h3>
-        <p className="hero-text">
+        </motion.h3>
+        <motion.p 
+        className="hero-text"
+        initial={{opacity:0, y:-25}}
+                animate={{opacity:1, y:0}}
+                transition={{
+                duration:0.3,
+                ease:"easeInOut",
+                delay: 1.35,
+                }}
+        >
             I&apos;m Physics engineer with software developing background with expertise in creating digital experinces. My curren focus is on developing products that are accessible and centered around users need.
-        </p>
-        <div className="hero-button">
-            <Button text="Check out my course" link='https://youtube.com'/>
-        </div>
+        </motion.p>
+        
     </div>
   )
 }
