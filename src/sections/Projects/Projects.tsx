@@ -6,18 +6,19 @@ import { motion } from "framer-motion";
 function Projects() {
     const projectsData = [
         {
-          image: "/Project1.jpg",
+          image: "/GameShop2.jpg",
           projectName: "Pokedex",
           projectLink: "https://netlify.com",
           projectDescription:
             "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
           projectTech: [
-            "React",
+            "React Native",
             "Redux Toolkit",
-            "SCSS",
-            "Firebase",
-            "Typescript",
-            "PokeApi",
+            "StyleSheet",
+            "Node JS",
+            "Express",
+            "Sequelize",
+            "PostgreSQL",
           ],
           projectExternalLinks: {
             github: "",
