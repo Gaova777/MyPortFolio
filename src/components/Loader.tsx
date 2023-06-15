@@ -6,7 +6,7 @@ function Loader({ isLoading, setIsLoading }: any) {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading();
-    }, 800);
+    }, 900);
   }, [setIsLoading]);
   return (
     <AnimatePresence>

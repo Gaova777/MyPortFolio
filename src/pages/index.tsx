@@ -16,7 +16,7 @@ function Index() {
 
   const handleLoaderLoaded = () => {
     setIsLoading(false);
-    setTimeout(() => setShowContent(true), 250);
+    setTimeout(() => setShowContent(true), 295);
   };
   return (
     <div className='app'>
