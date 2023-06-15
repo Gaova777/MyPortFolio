@@ -27,33 +27,24 @@ function About() {
             <div className="about-grid">
                 <div className="about-grid-info">
                     <p className="about-grid-info-text">
-                        Bonjour! My name is Kishan, and I am passionate about creating
-                        digital content for the web. My interest in web development was
-                        sparked in 2016 when I created my first project called Lavish, a
-                        social media app built using React and Node.js.
+                        
+                        Hello!! I&apos;m Juan Diego, so passionate about createing digital content for the web. My interest in web development was sparked in 2021 when I created an avocado aplication! 🥑 to interact in my first CRUD
                     </p>
                     <p className="about-grid-info-text">
-                        Fast-forward to today, I specialize in designing and developing
-                        high-quality solutions that delight our clients and exceed their
-                        expectations at{" "}
-                        <Link href="https://rapidops.com" className="link" target="_blank">
-                            Rapidops.
-                        </Link>
+                        Also, I finalized my degree in Physics engineer at december 2021, with backgroud in Investigation in develop software to apply basis in Artificial Intelligent
                     </p>
 
                     <p className="about-grid-info-text">
-                        Additionally, I share my knowledge and passion with the world
-                        through my YouTube channel, where I demonstrate how to build
-                        full-stack applications.
+                        Additionally, I love teaching my knowledge and practice with students that want to learn about programming basics, in a software developing or Artificial Intelligent
                     </p>
                     <p className="about-grid-info-text">
                         I am also working on a new project called&nbsp;
                         <Link
                             className="link"
                             target="_blank"
-                            href="https://frontendvita.com"
+                            href="https://github.com/sergioare/812"
                         >
-                            FrontendVita,
+                            812,
                         </Link>
                         &nbsp;aimed at enhancing frontend development skills.
                     </p>

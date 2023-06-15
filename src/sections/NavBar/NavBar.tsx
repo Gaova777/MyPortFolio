@@ -119,7 +119,7 @@ const [responsiveNavVisible,setResponsiveNavVisible]=useState(false);
               delay: 0.6,
             }}
             >
-            <Button text="Resume" link="http://localhost:3000/resume.pdf"/>
+            <Button text="Resume" link="https://drive.google.com/file/d/1IJUH6bykdi0eb1tXO20NraiBjA0G0eCg/view?usp=sharing"/>
           </motion.div>
         </div>
       </div>

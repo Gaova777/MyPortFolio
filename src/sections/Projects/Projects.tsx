@@ -7,63 +7,73 @@ function Projects() {
     const projectsData = [
         {
           image: "/GameShop2.jpg",
-          projectName: "Pokedex",
-          projectLink: "https://netlify.com",
+          projectName: "GameShop",
+          projectLink: "https://expo.dev/@deamond/GameShopLocal?release-channel=default",
           projectDescription:
-            "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+            "This is a mobile aplication that uses information about API videogames and the posibility to buy and sell this between users registered, you can filter by platform, genre, price, alphabet and score. This aplication was created to users interact with payment gateway with Stripe, also too see the details of each videoGame. In the registered you can authenticate by Google, and some users can access to administrator panel to see statistics and logical deletion from the another users",
           projectTech: [
             "React Native",
             "Redux Toolkit",
             "StyleSheet",
+            "Stripe",
+            "NodeMailer",
             "Node JS",
             "Express",
             "Sequelize",
             "PostgreSQL",
           ],
           projectExternalLinks: {
-            github: "",
+            github: "https://github.com/Equipo-4-Henry-GameShop/GameShop",
             externalLink: "",
           },
-          status: "Finalized"
+          status: "In Process"
         },
         {
-          image: "/Project2.jpg",
-          projectName: "Realtime Chat App",
-          projectLink: "https://netlify.com",
+          image: "/Project3Hire3.jpg",
+          projectName: "HireMySkills",
+          projectLink: "https://pf-hire-my-skills.vercel.app/",
           projectDescription:
-            "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+            "HireMySkill is an aplication, that you can hire any service about you need and provide your service if you have thatm you can be registered and buy with payment gateway with Stripe, you receive an email notice about this. If you have the admin token then you can do the logical deletion, send promotions.",
           projectTech: [
+            "Html",
+            "CSS",
+            "JavasCript",
             "React",
-            "Sockets",
+            "Redux",
+            "Stripe",
+            "NodeMailer",
             "Node.js",
             "Express",
-            "MongoDB",
-            "Styled Components",
+            "PostgreSQL",
+            
           ],
           projectExternalLinks: {
-            github: "",
-            externalLink: "",
+            github: "https://github.com/sergioare/PF-HireMySkills",
+            externalLink: "https://pf-hire-my-skills.vercel.app/",
           },
-          status: "Finalized"
+          status: "In Process"
 
         },
         {
-          image: "/Project3Hire.jpg",
-          projectName: "Netflix App",
-          projectLink: "https://netlify.com",
+          image: "/Project1.jpg",
+          projectName: "VideoGamesAPP",
+          projectLink: "https://github.com/Gaova777/PI-VideoGames",
           projectDescription:
-            "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+            "In this aplication I used the ApiRest Videogames to achieve differents logics with React, Redux, using a backend with NodeJS, Express, Sequelize, you can create new videoGames, Filter with Platforms, genre, Rating and Alphabet",
           projectTech: [
+            "Html",
+            "CSS",
+            "JavasCript",
             "React",
+            "Redux",
             "Node.js",
-            "Firebase",
-            "MongoDB",
+            "Sequelize",
             "Express",
-            "Redux Toolkit",
+            "PostgreSQL",
           ],
           projectExternalLinks: {
-            github: "",
-            externalLink: "",
+            github: "https://github.com/Gaova777/PI-VideoGames",
+            externalLink: "https://github.com/Gaova777/PI-VideoGames",
           },
           status: "Finalized"
 

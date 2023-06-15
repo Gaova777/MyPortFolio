@@ -7,7 +7,7 @@ function Experience() {
   useEffect(() => {
     const transformSelected = () => {
       const underline = document.querySelector<HTMLElement>(".underline");
-      underline!.style.top = `${selected * 2.5}rem`;
+      underline!.style.top = `${selected * 3.8}rem`;
     };
     transformSelected();
   }, [selected]);
@@ -20,32 +20,32 @@ function Experience() {
       start: "August 2022",
       end: "May 2023",
       shortDescription: [
-        "I had the oportunity to work in Scrum methodology to implement RestAPI Aplication, to connect Siigo and Alegra Platform in their FlagShip software SARFI",
+        "I oversaw creating an Implementation RestAPI and connect different Invoice Platform like Siigo and Alegra, in the star accounting and administration Software SARFI in Laravel and Liveware MySQL.",
         "Throughout my work, I've utilized React and Redux-Toolkit SASS, HTML, Javascript, PHP, Laravel and Liveware to achieve the differents goals in Sarfi Software .",
         "I've also managed Support to differents clients that had Sarfi Software in their company",
       ],
     },
     {
-      name: "University Tecnológica de Pereira",
-      role: "Auxiliary laboratory Materials Investigation",
+      name: "University  Technologic of Pereira",
+      role: "Research Materials Lab Assistant",
       url: "https://www.utp.edu.co",
       start: "Febrary 2019",
       end: "December 2021",
       shortDescription: [
-        "I belonged to a investigation group about Plasm an new materials, handle Matlab Software based in C language to implement simulations and sintetize nanoparticles in liquid environment, recolecting data and get machine learning model",
-        "I was able to make an article about sintetized an characteristing nanomaterial thank for the simulations",
-        "I was an auxiliar to handle the specially instrument.",
+        "I belonged to an investigation group about Plasm and new materials, handle MATLAB Software based in C language to implement simulations and synthetize nanoparticles in liquid environment, recollecting data models.",
+        "I was able to make an article about synthesized a characteristic nanomaterial thanks for the simulations.",
+        "I was an auxiliary to handle the instrument specially..",
       ],
     },
     {
       name: "Computer Science Assistant",
-      role: "Assistant",
+      role: "Assistant Independient",
       url: "Independient",
-      start: "November 2022",
-      end: "November 2020",
+      start: "November 2020",
+      end: "November 2022",
       shortDescription: [
-        "I've teached to studdents differents basics topics about programming, in javascript Vanilla, MySQL and PHP, Python, React",
-        "I managed groups of students to create applications FullStack to carry out the differents practice",
+        "I have taught students different basic topics about programming, in javascript Vanilla, MySQL and PHP, Python, React, PHP and MySQL.",
+        "Managed groups of students to create FullStack applications for the different internships.",
       ],
     },
     
