@@ -28,14 +28,14 @@ function About() {
                 <div className="about-grid-info">
                     <p className="about-grid-info-text">
                         
-                        Hello!! I&apos;m Juan Diego, so passionate about createing digital content for the web. My interest in web development was sparked in 2021 when I created an avocado aplication! 🥑 to interact in my first CRUD
+                        Hello!! I&apos;m Juan Diego, passionate about creating digital content for the web. My interest in web development was awakened in 2021 when I created an application ¡aguacate! 🥑 to interact in my first CRUD.
                     </p>
                     <p className="about-grid-info-text">
-                        Also, I finalized my degree in Physics engineer at december 2021, with backgroud in Investigation in develop software to apply basis in Artificial Intelligent
+                    In addition, I finished my degree in Physics Engineering in December 2021, with a background in Research in software development to apply foundations in Artificial Intelligence.
                     </p>
 
                     <p className="about-grid-info-text">
-                        Additionally, I love teaching my knowledge and practice with students that want to learn about programming basics, in a software developing or Artificial Intelligent
+                    Also, I love to teach my knowledge and practice with students who want to learn about programming fundamentals, software development or Artificial Intelligence.
                     </p>
                     <p className="about-grid-info-text">
                         I am also working on a new project called&nbsp;
@@ -46,7 +46,7 @@ function About() {
                         >
                             812,
                         </Link>
-                        &nbsp;aimed at enhancing frontend development skills.
+                        &nbsp;aimed at improving frontend development skills.
                     </p>
                     <p className="about-grid-info-text">
                         Here are a few technologies I’ve been working with recently:
