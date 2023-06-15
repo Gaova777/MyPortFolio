@@ -119,7 +119,7 @@ const [responsiveNavVisible,setResponsiveNavVisible]=useState(false);
               delay: 0.6,
             }}
             >
-            <Button text="Resume" link="https://drive.google.com/file/d/10E1yPZUN8RRsoaE4wvVwGSYRYinknkW7/view?usp=sharing"/>
+            <Button text="Resume" link="https://gaova-portfolio.vercel.app/resume.pdf"/>
           </motion.div>
         </div>
       </div>
